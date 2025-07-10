@@ -4,8 +4,8 @@ public class StudentDemo {
 
 	public static void main(String[] args) {
 		
-		Student vaishnavi=new Student();
-		vaishnavi.isRegistered();
+		Student shreya=new Student();
+		shreya.isRegistered();
 
 	}
 

@@ -1,13 +1,17 @@
 package nesteddemo;
 
-public class NestedDemo implements OuterInterface {
+public class NestedDemo implements OuterInterface , OuterInterface.InnerInterface{
 
+	@Override
 	public void calArea() {
-		System.out.println("Outer Interface");
+		System.out.println("Outer interface ");
+		
 	}
-	
-	public void calArea() {
-		System.out.println("Inner Interface");
+
+	@Override
+	public void print() {
+	System.out.println("inner interface ");
+		
 	}
 
 }
