@@ -7,7 +7,7 @@ public class Customer {
 	private String customerCity;
 	
 	
-	//default constructor 
+	 
 	public Customer()
 	{
 		System.out.println("hello this is Defaul Constructor--------------! ");
@@ -26,9 +26,9 @@ public class Customer {
 
 
 
-	//para constructor 
+	
 	public Customer(String customerName, int customerId, String customerCity) {
-		//this (); //calling default constructor 
+		
 		
 		System.out.println("Hello is this Para Constructor ");
 		this.customerName = customerName;
@@ -37,7 +37,7 @@ public class Customer {
 	}
 
 
-	//getter setter
+	
 	public String getCustomerName() {
 		return customerName;
 	}
@@ -68,7 +68,7 @@ public class Customer {
 	}
 
 
-	//to string
+	
 	@Override
 	public String toString() {
 		return "Customer [customerName=" + customerName + ", customerId=" + customerId + ", customerCity="
