@@ -1,6 +1,6 @@
 package markerdemo;
 
-public class Demo implements ExtendedInterface	 {
+public class Demo implements ExtendedInterface {
 
 	@Override
 	public void show() {

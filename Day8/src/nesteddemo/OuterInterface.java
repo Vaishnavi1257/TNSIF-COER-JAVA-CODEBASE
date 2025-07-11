@@ -1,5 +1,7 @@
 package nesteddemo;
 
+import markerdemo.InterfaceDemo;
+
 public interface OuterInterface {
 
 void calArea();
