@@ -7,7 +7,6 @@ public class Account implements Bank {
 	private String name;
 	private double balance;
 
-	//getter and setter 
 	public int getAccNo() {
 		return accNo;
 	}
