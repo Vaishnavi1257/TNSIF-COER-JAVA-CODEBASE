@@ -1,6 +1,6 @@
 package Synchronization;
 
-public class Account implements Bank {
+public interface Account implements Bank {
 
 	
 	private int accNo;
