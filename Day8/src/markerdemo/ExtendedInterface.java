@@ -1,6 +1,6 @@
 package markerdemo;
 
-public class ExtendedInterface extends InterfaceDemo {
+public interface ExtendedInterface extends InterfaceDemo {
 
 	public void print();
 	
